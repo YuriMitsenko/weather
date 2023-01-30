@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .whether {
+            display: flex;
+            /* flex-direction: column; */
+            align-items: center;
+            justify-content: center;
+            border: 1px solid gray;
+            padding: 3px 8px;
+            margin: 2px 10px;
+            background-color: cyan;
+            
+        }
+        .whether > * {
+           margin: 10px;
+           text-align: center;
+        }
+
+       
+        .main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid gray;
+            padding: 3px 8px;
+            margin: 2px 10px;
+            background-color: cyan
+        }
+
+        button {
+            width: 100%;
+        }
+
+        
+
+    </style>    
+</head>
+<body>
+    <div id="main"> </div>
+    <button> Celsius / Fahrenheit</button>
+    <div id="weatherContainer">
+
+
+    <script src="dataService.js"></script>
+    <script src="cityWeather.js"></script>
+    <script src="weatherList.js"></script>
+    <script src="main.js"></script> 
+</body>
+</html>
+   
